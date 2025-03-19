@@ -1,12 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    text-transform: uppercase;
-    font-weight: bold;
-  } */
-
 body {
   min-height: 100vh;
   background-image: url('background.jpg');
@@ -26,13 +17,13 @@ body {
 }
 
 .block {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     background-color: #4682B4;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -79,3 +70,23 @@ img {
     background-color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
 }
+
+.btn {
+    width: 28%;
+    margin: 0 auto;
+    background-color: #ffffff; 
+}
+
+.lightblue{
+    background-color: #4682B4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 95%;
+  }
+
+  .divider-vertical {
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
