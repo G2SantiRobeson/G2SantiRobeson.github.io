@@ -8,6 +8,16 @@ body {
   place-items: center;
 }
 
+.pkm-card {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
 .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 36px;
@@ -73,7 +83,11 @@ img {
 
 .btn {
     width: 28%;
+    display: block;
     margin: 0 auto;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
     background-color: #ffffff; 
 }
 
@@ -90,3 +104,25 @@ img {
     background-color: #ccc;
     margin: 0 10px;
   }
+
+  .list-item {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    color: #1e1d1d;
+    line-height: 1.6;
+  }
+
+  li {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    color: #1e1d1d;
+    line-height: 1.6;
+  }
+
+.button {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px;
+}
