@@ -31,7 +31,7 @@ function uploadNews(url){
                 item.textContent = element.title;
 
                 item.innerHTML = ` <p></p>
-                                   <strong> Title: ${element.title}</strong> <br>
+                                   <strong>${element.title}</strong> <br>
                                    <p>${element.description || "Sin descripción disponible."}</p>
                                    <em>Source: ${element.source.name}</em> <br>
                                    <a href="${element.url}" target="_blank"><button>Read More</button></a>
