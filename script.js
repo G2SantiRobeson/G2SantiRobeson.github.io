@@ -34,6 +34,7 @@ function uploadNews(url){
                                    <strong> Title: ${element.title}</strong> <br>
                                    <p>${element.description || "Sin descripción disponible."}</p>
                                    <em>Source: ${element.source.name}</em> <br>
+                                   <a href="${element.url}" target="_blank"><button>Read More</button></a>
                                    <p></p>`;
 
                 news.appendChild(item);
