@@ -25,7 +25,7 @@ function updateThemeButton(){
  document.getElementById("theme-icon").textContent=dark?"☀":"☾";
  const label=dark?(language==="es"?"Activar tema claro":"Switch to light theme"):(language==="es"?"Activar tema oscuro":"Switch to dark theme");
  button.setAttribute("aria-label",label);button.title=label;
- document.querySelector('meta[name="theme-color"]').content=dark?"#191d1c":"#f9f8f5";
+ document.querySelector('meta[name="theme-color"]').content=dark?"#0b1020":"#f3f7fc";
 }
 document.addEventListener("DOMContentLoaded",()=>{
  document.getElementById("year").textContent=new Date().getFullYear();
