@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sitio personal de Santiago Robeson: proyectos de programación, investigación y aficiones.">
+  <meta name="description" content="Sitio personal de Santiago Robeson: aplicaciones web, proyectos universitarios en Ruby y Python, investigación e intereses.">
   <meta name="theme-color" content="#f9f8f5">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Santiago Robeson · Proyectos y algo más">
@@ -56,37 +56,109 @@
 
     <section class="section shell" id="proyectos" aria-labelledby="projects-heading">
       <div class="section-heading">
-        <div><p class="section-index">01 / <span data-i18n="indexWork">Proyectos</span></p><h2 id="projects-heading" data-i18n="projectsTitle">Mis proyectos</h2></div>
-        <p class="section-intro" data-i18n="projectsIntro">Una web para una comunidad de League of Legends y experimentos para mi tesis. Bastante distintos, pero ambos me han enseñado mucho.</p>
+        <div>
+          <p class="section-index">01 / <span data-i18n="indexWork">Proyectos</span></p>
+          <h2 id="projects-heading" data-i18n="projectsTitle">Mis proyectos</h2>
+        </div>
+        <p class="section-intro" data-i18n="projectsIntro">Algunas cosas que he construido por mi cuenta y trabajos de la universidad. Cada uno me ha servido para aprender algo distinto.</p>
       </div>
-      <div class="project-grid">
-        <article class="project-card card-web">
-          <div class="project-banner banner-soloq" aria-hidden="true"><span class="banner-icon">🎮</span><span>SoloQ</span></div><div class="project-content">
+      <div class="project-group">
+        <h3 class="project-group-heading" data-i18n="personalGroup">Proyectos personales y de comunidad</h3>
+        <div class="project-grid">
+          <article class="project-card">
+          <div class="project-banner banner-soloq" aria-hidden="true"><span class="banner-icon">🎮</span><span>SoloQ</span></div>
+          <div class="project-content">
             <p class="project-category" data-i18n="soloqType">Proyecto personal · Desarrollo web</p>
             <h3>SoloQ</h3>
             <p data-i18n="soloqDesc">Una página para seguir las partidas y estadísticas de una comunidad de League of Legends. Incluye rankings, perfiles, historial y un panel de administración.</p>
             <ul class="tag-list" aria-label="Tecnologías"><li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Drizzle</li></ul>
+            
             <a class="project-link" href="https://github.com/G2SantiRobeson/soloq" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
           </div>
         </article>
-        <article class="project-card card-science">
-          <div class="project-banner banner-ct" aria-hidden="true"><span class="banner-icon">🔬</span><span>Tomografía</span></div><div class="project-content">
+          <article class="project-card">
+          <div class="project-banner banner-esports" aria-hidden="true"><span class="banner-icon">🏆</span><span>UANDES Esports</span></div>
+          <div class="project-content">
+            <p class="project-category" data-i18n="esportsType">Proyecto web · Comunidad universitaria</p>
+            <h3>UANDES Esports</h3>
+            <p data-i18n="esportsDesc">Sitio para una comunidad universitaria de esports, con páginas de torneos, equipos, noticias y un panel para administrar el contenido.</p>
+            <ul class="tag-list" aria-label="Tecnologías"><li>React</li><li>Vite</li><li>Fastify</li><li>PostgreSQL</li></ul>
+            
+            <a class="project-link" href="https://github.com/G2SantiRobeson/uandesesports" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        </div>
+      </div>
+      <div class="project-group">
+        <h3 class="project-group-heading" data-i18n="universityGroup">Trabajos universitarios</h3>
+        <div class="project-grid">
+          <article class="project-card">
+          <div class="project-banner banner-ruby" aria-hidden="true"><span class="banner-icon">📚</span><span>Book Reviews</span></div>
+          <div class="project-content">
+            <p class="project-category" data-i18n="rubyType">Assignment · Arquitectura de software</p>
+            <h3>Book Reviews (Ruby on Rails)</h3>
+            <p data-i18n="rubyDesc">Un trabajo de curso desarrollado en cuatro entregas: aplicación de reseñas de libros, contenedores, búsqueda y caché, y despliegue con Traefik.</p>
+            <ul class="tag-list" aria-label="Tecnologías"><li>Ruby on Rails</li><li>PostgreSQL</li><li>Docker</li><li>Kubernetes</li></ul>
+            <details class="ruby-deliveries">
+              <summary data-i18n="rubyAssignmentsTitle">Ver las cuatro entregas</summary>
+              <ol>
+                <li><a href="https://github.com/G2SantiRobeson/Assignment-Software-Architecture/blob/main/README.md" target="_blank" rel="noopener noreferrer" data-i18n="rubyA1">1. Aplicación en Rails</a></li>
+                <li><a href="https://github.com/G2SantiRobeson/Assignment-Software-Architecture/blob/main/README_DELIVERY_2.md" target="_blank" rel="noopener noreferrer" data-i18n="rubyA2">2. Docker y Kubernetes</a></li>
+                <li><a href="https://github.com/G2SantiRobeson/Assignment-Software-Architecture/blob/main/README_CACHING_SEARCH.md" target="_blank" rel="noopener noreferrer" data-i18n="rubyA3">3. Redis y OpenSearch</a></li>
+                <li><a href="https://github.com/G2SantiRobeson/Assignment-Software-Architecture/blob/main/script/assignment4-commands.txt" target="_blank" rel="noopener noreferrer" data-i18n="rubyA4">4. Traefik y despliegue</a></li>
+              </ol>
+            </details>
+            <a class="project-link" href="https://github.com/G2SantiRobeson/Assignment-Software-Architecture" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+<article class="project-card">
+          <div class="project-banner banner-ct" aria-hidden="true"><span class="banner-icon">🔬</span><span>Tomografía</span></div>
+          <div class="project-content">
             <p class="project-category" data-i18n="ctType">Proyecto de tesis · Python</p>
             <h3 data-i18n="ctTitle">Reconstrucción tomográfica</h3>
             <p data-i18n="ctDesc">Experimentos sobre cómo reconstruir imágenes de tomografía. Comparé filtros, añadí ruido a sinogramas y revisé las diferencias entre calcular la transformada de Fourier de forma directa y con FFT.</p>
             <ul class="tag-list" aria-label="Tecnologías"><li>Python</li><li>NumPy</li><li>Radon / FBP</li><li>Fourier</li></ul>
-            <a class="project-link" href="https://github.com/G2SantiRobeson/HITO-1" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository2">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
+            
+            <a class="project-link" href="https://github.com/G2SantiRobeson/HITO-1" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
           </div>
         </article>
+<article class="project-card">
+          <div class="project-banner banner-perfil" aria-hidden="true"><span class="banner-icon">📄</span><span>Perfil de egreso</span></div>
+          <div class="project-content">
+            <p class="project-category" data-i18n="perfilType">Proyecto universitario · Inteligencia artificial</p>
+            <h3>Análisis del perfil de egreso</h3>
+            <p data-i18n="perfilDesc">Aplicación que analiza documentos académicos y los relaciona con competencias de una malla curricular. Muestra evidencias y resultados en un mapa de calor.</p>
+            <ul class="tag-list" aria-label="Tecnologías"><li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>Embeddings</li></ul>
+            
+            <a class="project-link" href="https://github.com/G2SantiRobeson/MVPFinalUltimoTodoListoDefinitivoIAA" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+<article class="project-card">
+          <div class="project-banner banner-clickbait" aria-hidden="true"><span class="banner-icon">📰</span><span>Titulares</span></div>
+          <div class="project-content">
+            <p class="project-category" data-i18n="clickbaitType">Tarea universitaria · Datos</p>
+            <h3>Dataset de titulares y clickbait</h3>
+            <p data-i18n="clickbaitDesc">Recolección de titulares de prensa chilena e internacional, limpieza de datos, etiquetado inicial y análisis exploratorio.</p>
+            <ul class="tag-list" aria-label="Tecnologías"><li>Python</li><li>Web scraping</li><li>Pandas</li><li>EDA</li></ul>
+            
+            <a class="project-link" href="https://github.com/G2SantiRobeson/Tarea-2-IAA" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepository">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        </div>
       </div>
+      <p class="projects-footer"><span data-i18n="moreOnGithub">Hay más repositorios y tareas en mi GitHub.</span> <a href="https://github.com/G2SantiRobeson?tab=repositories" target="_blank" rel="noopener noreferrer" data-i18n="allRepositories">Ver todos los repositorios ↗</a></p>
     </section>
 
     <section class="section shell" id="habilidades" aria-labelledby="skills-heading">
-      <div class="section-heading"><div><p class="section-index">02 / <span data-i18n="indexStack">Herramientas</span></p><h2 id="skills-heading" data-i18n="skillsTitle">Tecnologías que he usado</h2></div><p class="section-intro" data-i18n="skillsIntro">Algunas herramientas que he usado en clases, proyectos personales e investigación.</p></div>
+      <div class="section-heading">
+        <div><p class="section-index">02 / <span data-i18n="indexStack">Herramientas</span></p><h2 id="skills-heading" data-i18n="skillsTitle">Tecnologías que he usado</h2></div>
+        <p class="section-intro" data-i18n="skillsIntro">Herramientas que he utilizado en proyectos personales y trabajos de la universidad.</p>
+      </div>
       <div class="skill-grid">
-        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">{ }</div><h3 data-i18n="webTitle">Desarrollo web</h3><p>Next.js · React · TypeScript · JavaScript · HTML · CSS</p></article>
-        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">#</div><h3 data-i18n="dataTitle">Datos y herramientas</h3><p>PostgreSQL · SQL · Drizzle · Git · GitHub · Vercel</p></article>
-        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">∑</div><h3 data-i18n="scienceTitle">Computación científica</h3><p>Python · NumPy · Procesamiento de imágenes · Fourier · FBP</p></article>
+        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">{ }</div><h3 data-i18n="webTitle">Desarrollo web</h3><p>Next.js · React · TypeScript · JavaScript · Ruby on Rails · FastAPI</p></article>
+        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">#</div><h3 data-i18n="dataTitle">Bases de datos y búsqueda</h3><p>PostgreSQL · SQL · Drizzle · Redis · OpenSearch</p></article>
+        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">↗</div><h3 data-i18n="infraTitle">Despliegue y herramientas</h3><p>Git · GitHub · Docker Compose · Kubernetes · Traefik · Vercel</p></article>
+        <article class="skill-panel"><div class="skill-panel-icon" aria-hidden="true">∑</div><h3 data-i18n="scienceTitle">Python y análisis</h3><p>Python · NumPy · Pandas · Procesamiento de imágenes · Fourier · FBP</p></article>
       </div>
     </section>
 
